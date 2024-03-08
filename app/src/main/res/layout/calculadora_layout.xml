@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="0.2in"
+        android:background="#CE69DF"
+        android:backgroundTint="#DB64EF"
+        android:fontFamily="sans-serif-light"
+        android:padding="0.1in"
+        android:text="Calculadora"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/camponumero"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:backgroundTint="#BD5CCD"
+        android:ems="10"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="103dp"
+            android:layout_height="87dp"
+            android:text="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:text="2" />
+
+    </LinearLayout>
+
+</LinearLayout>
