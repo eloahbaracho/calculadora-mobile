@@ -21,7 +21,7 @@ public class AtividadeCalculadora extends AppCompatActivity {
         Button button1 = findViewById(R.id.numero1);
         Button button2 = findViewById(R.id.numero2);
         Button button3 = findViewById(R.id.numero3);
-        Button button4 = findViewById(R.id.numero4);
+        Button button4 = findViewById(R.id.numero6);
         Button button5 = findViewById(R.id.numero5);
         Button button6 = findViewById(R.id.numero6);
         Button button7 = findViewById(R.id.numero7);
@@ -32,8 +32,7 @@ public class AtividadeCalculadora extends AppCompatActivity {
         Button buttonMenos = findViewById(R.id.menos);
         Button buttonDividir = findViewById(R.id.dividir);
         Button buttonMulti = findViewById(R.id.multiplicar);
-        Button buttonPorcem = findViewById(R.id.porcentagem);
-        Button buttonDecimal = findViewById(R.id.virgula);
+
 
         setContentView(R.layout.calculadora_layout);
     }
